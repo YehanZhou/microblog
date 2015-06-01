@@ -1,0 +1,346 @@
+[Mon Jun 01 2015 13:33:01 GMT+0800 (中国标准时间)]/
+Error
+    at new JS_Parse_Error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:196:18)
+    at js_error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:204:11)
+    at croak (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:684:41)
+    at token_error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:688:9)
+    at unexpected (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:694:9)
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:860:17
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:727:24
+    at block_ (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:1007:20)
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:980:25
+    at function_ (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:985:15)
+[Mon Jun 01 2015 13:40:40 GMT+0800 (中国标准时间)]/
+Error
+    at new JS_Parse_Error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:196:18)
+    at js_error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:204:11)
+    at croak (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:684:41)
+    at token_error (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:688:9)
+    at unexpected (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:694:9)
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:860:17
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:727:24
+    at block_ (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:1007:20)
+    at c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:980:25
+    at function_ (c:\Users\Administrator\microblog\node_modules\jade\node_modules\with\node_modules\uglify-js\lib\parse.js:985:15)
+[Mon Jun 01 2015 13:46:41 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:1
+  > 1| extends bloglayout
+    2| block bcontent
+    3|   include narbar.jade
+    4|   div.jumbotron
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\bloglayout.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseExtends (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:470:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:198:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+    at Object.exports.render (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:268:15)
+    at Object.exports.renderFile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:305:18)
+[Mon Jun 01 2015 13:46:54 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:1
+  > 1| extends bloglayout
+    2| block bcontent
+    3|   include narbar.jade
+    4|   div.jumbotron
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\bloglayout.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseExtends (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:470:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:198:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+    at Object.exports.render (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:268:15)
+    at Object.exports.renderFile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:305:18)
+[Mon Jun 01 2015 13:47:07 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:1
+  > 1| extends bloglayout
+    2| block bcontent
+    3|   include narbar.jade
+    4|   div.jumbotron
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\bloglayout.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseExtends (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:470:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:198:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+    at Object.exports.render (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:268:15)
+    at Object.exports.renderFile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:305:18)
+[Mon Jun 01 2015 13:48:32 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:1
+  > 1| extends bloglayout
+    2| block bcontent
+    3|   include narbar.jade
+    4|   div.jumbotron
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\bloglayout.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseExtends (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:470:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:198:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+    at Object.exports.render (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:268:15)
+    at Object.exports.renderFile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:305:18)
+[Mon Jun 01 2015 13:49:43 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\layout.jade:10
+    8|         p
+    9|           a(class='btn btn-primary btn-lg' href='/login' role="button") 登录
+  > 10|           a(class='btn btn-lg' href='/reg' role="button") 注册
+    11|       - else
+    12|         include ./say.jade
+    13|   div.container
+
+link is self closing and should not have content.
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:455:32)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:464:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)
+[Mon Jun 01 2015 13:49:54 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\layout.jade:10
+    8|         p
+    9|           a(class='btn btn-primary btn-lg' href='/login' role="button") 登录
+  > 10|           a(class='btn btn-lg' href='/reg' role="button") 注册
+    11|       - else
+    12|         include ./say.jade
+    13|   div.container
+
+link is self closing and should not have content.
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:455:32)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:464:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)
+[Mon Jun 01 2015 14:03:30 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:14
+    12|  else 
+    13|   include ./say.jade
+  > 14|  include ./post.jade
+    15| 
+    16| 
+    17| 
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\post.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.parseBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:491:14)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:192:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+[Mon Jun 01 2015 14:03:48 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:14
+    12|  else 
+    13|   include ./say.jade
+  > 14| include ./post.jade
+    15| 
+    16| 
+    17| 
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\post.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+    at Object.exports.render (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:268:15)
+    at Object.exports.renderFile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:305:18)
+[Mon Jun 01 2015 14:04:33 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\index.jade:14
+    12|  else 
+    13|   include ./say.jade
+  > 14|  include ./post.jade
+    15| 
+    16| 
+    17| 
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\post.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.parseBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:491:14)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:192:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+[Mon Jun 01 2015 14:07:48 GMT+0800 (中国标准时间)]/u/haha
+Error: c:\Users\Administrator\microblog\views\user.jade:3
+    1| extends layout
+    2| block content
+  > 3|   include narbar.jade
+    4|   div.jumbotron
+    5|     div.container
+    6|       - if (user)
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\narbar.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.parseBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:491:14)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:192:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+[Mon Jun 01 2015 14:09:08 GMT+0800 (中国标准时间)]/u/haha
+Error: c:\Users\Administrator\microblog\views\user.jade:9
+    7|   div.container
+    8|     include ./posts.jade
+  > 9|     include footer.jade
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\footer.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:800:26)
+    at Parser.parseTag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:719:17)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:188:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+[Mon Jun 01 2015 14:12:00 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\layout.jade:8
+    6|     link(rel='stylesheet', href='/stylesheets/style.css')
+    7|     style
+  > 8|      body{
+    9|       padding-top:60px;
+    10|      }
+    11|   body
+
+unexpected text {
+   
+    at Object.Lexer.fail (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:816:11)
+    at Object.Lexer.next (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:875:15)
+    at Object.Lexer.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:113:46)
+    at Parser.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:100:23)
+    at Parser.peek (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:77:17)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:733:22)
+    at Parser.parseTag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:719:17)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:188:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:800:26)
+[Mon Jun 01 2015 14:13:04 GMT+0800 (中国标准时间)]/u/haha
+Error: c:\Users\Administrator\microblog\views\user.jade:9
+    7|   div.container
+    8|     include ./posts.jade
+  > 9|     include footer.jade
+
+ENOENT, no such file or directory 'c:\Users\Administrator\microblog\views\footer.jade'
+    at Error (native)
+    at Object.fs.openSync (fs.js:500:18)
+    at Object.fs.readFileSync (fs.js:352:15)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:551:18)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:800:26)
+    at Parser.parseTag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:719:17)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:188:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+[Mon Jun 01 2015 14:15:19 GMT+0800 (中国标准时间)]/u/yehan
+Error: c:\Users\Administrator\microblog\views\user.jade:4
+    2| block content
+    3|   div.container
+  > 4| 	- if (user)
+    5| 	  include ./say.jade
+    6|   div.container
+    7|     include ./posts.jade
+
+Invalid indentation, you can use tabs or spaces but not both
+    at Object.Lexer.indent (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:761:15)
+    at Object.Lexer.next (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:869:15)
+    at Object.Lexer.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:113:46)
+    at Parser.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:100:23)
+    at Parser.peek (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:77:17)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:733:22)
+    at Parser.parseTag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:719:17)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:188:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.parseBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:491:14)
+[Mon Jun 01 2015 14:31:17 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\posts.jade:3
+    1| .container
+    2| 	- for (var i = 3; i < posts.length+3; i = i + 3)
+  > 3| 	  div.row
+    4| 	  - for(var j = i-3; j < i && j < posts.length; j++)
+    5| 	    div.col-md-4
+    6| 	      h2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at Object.Lexer.indent (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:761:15)
+    at Object.Lexer.next (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:869:15)
+    at Object.Lexer.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\lexer.js:113:46)
+    at Parser.lookahead (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:100:23)
+    at Parser.peek (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:77:17)
+    at Parser.parseCode (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:335:30)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:212:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.tag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:800:26)
+    at Parser.parseTag (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:719:17)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:188:21)
+[Mon Jun 01 2015 14:37:19 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\posts.jade:2
+    1|   - for (var i = 3; i < posts.length+3; i = i + 3)
+  > 2|     div.row
+    3|     - for(var j = i-3; j < i && j < posts.length; j++)
+    4|       div.col-md-4
+    5|         h2
+
+unexpected token "indent"
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:229:15)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at Parser.parseInclude (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:558:22)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:200:21)
+    at Parser.block (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:689:25)
+    at Parser.parseBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:491:14)
+    at Parser.parseExpr (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:192:21)
+    at Parser.parse (c:\Users\Administrator\microblog\node_modules\jade\lib\parser.js:120:25)
+    at parse (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:95:21)
+    at Object.exports.compile (c:\Users\Administrator\microblog\node_modules\jade\lib\jade.js:164:9)
+[Mon Jun 01 2015 14:40:49 GMT+0800 (中国标准时间)]/
+Error: c:\Users\Administrator\microblog\views\layout.jade:32
+
+
+hr is self closing and should not have content.
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:455:32)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitTag (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:464:12)
+    at Object.Compiler.visitNode (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:222:37)
+    at Object.Compiler.visit (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:209:10)
+    at Object.Compiler.visitBlock (c:\Users\Administrator\microblog\node_modules\jade\lib\compiler.js:292:12)

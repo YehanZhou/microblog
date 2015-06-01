@@ -19,11 +19,15 @@ html
        li.active
         a(href='/') 首页
          span.sr-only (current)
-       li
-        a(href='/login') 登入
-       li
-        a(href='/reg') 注册
-   #container.container
+       -if (!user)
+        li
+         a(href='/login') 登入
+        li
+         a(href='/reg') 注册
+       -else
+        li 
+         a(href='/logout') 登出
+   .container
     block content
     hr
     footer
